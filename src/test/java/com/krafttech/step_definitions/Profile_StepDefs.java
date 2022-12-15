@@ -24,7 +24,7 @@ public class Profile_StepDefs {
     @When("User should input the information boxes")
     public void user_should_input_the_information_boxes() {
         profilePage.fullName.clear();
-     profilePage.fullName.sendKeys("Yusuf");
+     profilePage.fullName.sendKeys("Rabinson");
      profilePage.about.clear();
      profilePage.about.sendKeys("This is great work");
      profilePage.company.clear();

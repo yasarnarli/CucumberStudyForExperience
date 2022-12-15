@@ -1,2 +1,0 @@
-file:src/test/resources/features/Profile.feature:4
-file:src/test/resources/features/AccountType.feature:5
