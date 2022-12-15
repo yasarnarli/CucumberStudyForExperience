@@ -1,4 +1,5 @@
 Feature: Navigate to menu with parameter
+
   @rerun
   Scenario: Rabinson navigates to edit profile menu
     Given User should be on the login page

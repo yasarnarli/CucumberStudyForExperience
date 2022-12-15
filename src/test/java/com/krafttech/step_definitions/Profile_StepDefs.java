@@ -13,6 +13,7 @@ public class Profile_StepDefs {
     ProfilePage profilePage=new ProfilePage();
     @When("User should go to My Profile")
     public void user_should_go_to_my_profile() {
+        BrowserUtils.waitFor(2);
         profilePage.myProfile.click();
     }
     @When("User should navigate to {string}")
